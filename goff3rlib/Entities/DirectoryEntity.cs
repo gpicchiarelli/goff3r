@@ -48,6 +48,7 @@ namespace goff3rlib.Entities
         private const string Gopher_Lastline = "." + Gopher_CRLF;
         private const char Gopher_NUL = '\0';
         private Uri GopherHost = null;
+        private int port = 70;
 
         private DirectoryEntity()
         {
