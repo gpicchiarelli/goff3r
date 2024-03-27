@@ -59,6 +59,7 @@ namespace goff3rlib.Entities
             GopherHost = Host;
             //Type User_Name Tab Selector Tab Host Tab Port CR-LF
         }
+        /* A row must be passed, not the entire output */
         private DirectoryEntity(string raw)
         {
             string pattern = @"^(\d)(.*?)\t(.*?)\t(.*?)\t(\d+)\r\n$";
