@@ -44,7 +44,6 @@ namespace goff3rlib.Entities
     {
         private const string Gopher_CRLF = "\r\n";
         private const string Gopher_TAB = "\t";
-        private const string Gopher_Lastline = "." + Gopher_CRLF;
         private const char Gopher_NUL = '\0';
         private readonly Uri? GopherHost = null;
         private readonly int port = 70;
