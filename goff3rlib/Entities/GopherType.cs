@@ -27,19 +27,19 @@ namespace goff3rlib.Entities
 
     public sealed class GopherType
     {
-        private const char GopherFile = '0';
-        private const char GopherDirectory = '1';
-        private const char GopherCSOPhoneBookServer = '2';
-        private const char GopherError = '3';
-        private const char GopherBixHexedMacintoshFile = '4';
-        private const char GopherDOSBinaryArchive = '5';
-        private const char GopherUNIXuuencodedFile = '6';
-        private const char GopherIndexSearchServer = '7';
-        private const char GopherToTelnetSessionPointer = '8';
-        private const char GopherBinaryFile = '9';
-        private const char GopherRedundantServer = '+';
-        private const char GopherTN3270Session = 'T';
-        private const char GopherGIFfile = 'g';
-        private const char GopherImageFile = 'I';
+        public const char GopherFile = '0';
+        public const char GopherDirectory = '1';
+        public const char GopherCSOPhoneBookServer = '2';
+        public const char GopherError = '3';
+        public const char GopherBixHexedMacintoshFile = '4';
+        public const char GopherDOSBinaryArchive = '5';
+        public const char GopherUNIXuuencodedFile = '6';
+        public const char GopherIndexSearchServer = '7';
+        public const char GopherToTelnetSessionPointer = '8';
+        public const char GopherBinaryFile = '9';
+        public const char GopherRedundantServer = '+';
+        public const char GopherTN3270Session = 'T';
+        public const char GopherGIFfile = 'g';
+        public const char GopherImageFile = 'I';
     }
 }

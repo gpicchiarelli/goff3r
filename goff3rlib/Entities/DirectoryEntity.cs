@@ -49,6 +49,7 @@ namespace goff3rlib.Entities
         private const char Gopher_NUL = '\0';
         private Uri GopherHost = null;
         private int port = 70;
+        private const char GopherTypeChar = GopherType.GopherDirectory;
 
         private DirectoryEntity()
         {
