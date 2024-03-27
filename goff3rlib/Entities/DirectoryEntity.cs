@@ -65,29 +65,29 @@ namespace goff3rlib.Entities
             // Usa Regex.Match per trovare corrispondenze nella riga di input
             Match match = Regex.Match(raw, pattern);
             if (match.Success)
-            {                
+            {
                 // Estrai i componenti dalla corrispondenza
                 string type = match.Groups[1].Value;
                 if (type.ToCharArray().ElementAt(0) == GopherType.GopherDirectory)
                 {
-                    string userName = match.Groups[2].Value;
-                    string selector = match.Groups[3].Value;
-                    string host = match.Groups[4].Value;
-                    string port = match.Groups[5].Value;
+                    _ = match.Groups[2].Value;
+                    _ = match.Groups[3].Value;
+                    _ = match.Groups[4].Value;
+                    _ = match.Groups[5].Value;
                 }
-                else 
+                else
                 {
                     throw new Exception("Gopher - Not a Directory - Parsing error");
                 }
             }
-            else 
+            else
             {
                 throw new Exception("Gopher - Directory - Parsing error");
             }
 
-                //Type User_Name Tab Selector Tab Host Tab Port CR-LF
-            }
-            private string ToString()
+            //Type User_Name Tab Selector Tab Host Tab Port CR-LF
+        }
+        private string ToString()
         {
             return GopherTypeChar + User_Name + Gopher_TAB + Selector + Gopher_TAB + GopherHost + Gopher_TAB + port + Gopher_CRLF;
         }
