@@ -70,10 +70,10 @@ namespace goff3rlib.Entities
                 string type = match.Groups[1].Value;
                 if (type.ToCharArray().ElementAt(0) == GopherType.GopherDirectory)
                 {
-                    _ = match.Groups[2].Value;
-                    _ = match.Groups[3].Value;
-                    _ = match.Groups[4].Value;
-                    _ = match.Groups[5].Value;
+                    User_Name = match.Groups[2].Value;
+                    Selector = match.Groups[3].Value;
+                    GopherHost = new Uri(match.Groups[4].Value);
+                    port = int.Parse(match.Groups[5].Value);
                 }
                 else
                 {
