@@ -21,9 +21,17 @@ namespace goff3rlib.Entities
 
         public MenuEntity(string raw) 
         {
-            if (!raw.Contains(Gopher_Lastline)) 
+            if (!raw.Contains(Gopher_Lastline))
             {
                 throw new Exception("Menu - wrong format - lastline Missing");
+            }
+            else 
+            {
+                try
+                {
+
+                }
+                catch (Exception w) { throw; }
             }
         }
 
