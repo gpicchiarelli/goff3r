@@ -1,0 +1,15 @@
+C:\Users\Giacomo\source\repos\goff3r\goff3r\bin\Debug\net8.0\goff3r.exe
+C:\Users\Giacomo\source\repos\goff3r\goff3r\bin\Debug\net8.0\goff3r.deps.json
+C:\Users\Giacomo\source\repos\goff3r\goff3r\bin\Debug\net8.0\goff3r.runtimeconfig.json
+C:\Users\Giacomo\source\repos\goff3r\goff3r\bin\Debug\net8.0\goff3r.dll
+C:\Users\Giacomo\source\repos\goff3r\goff3r\bin\Debug\net8.0\goff3r.pdb
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\goff3r.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\goff3r.AssemblyInfoInputs.cache
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\goff3r.AssemblyInfo.cs
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\goff3r.csproj.CoreCompileInputs.cache
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\goff3r.sourcelink.json
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\goff3r.dll
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\refint\goff3r.dll
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\goff3r.pdb
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\goff3r.genruntimeconfig.cache
+C:\Users\Giacomo\source\repos\goff3r\goff3r\obj\Debug\net8.0\ref\goff3r.dll
