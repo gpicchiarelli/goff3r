@@ -3,14 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3r\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AEF03E3-250F-4205-A9B0-03E3A50D5605}|Elementi di soluzione{5AEF03E3-250F-4205-A9B0-03E3A50D5605}|C:\\Users\\Giacomo\\source\\repos\\goff3r\\README.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\bnf\\gopher.bnf||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\goplib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5097B794-9AA4-420A-895C-79C65E4AF8EC}|goff3r.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3r\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5097B794-9AA4-420A-895C-79C65E4AF8EC}|goff3r.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AEF03E3-250F-4205-A9B0-03E3A50D5605}|Elementi di soluzione{5AEF03E3-250F-4205-A9B0-03E3A50D5605}|C:\\Users\\Giacomo\\source\\repos\\goff3r\\rfc\\rfc1436.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,19 +16,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rfc1436.txt",
+              "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\rfc\\rfc1436.txt",
+              "RelativeDocumentMoniker": "..\\rfc\\rfc1436.txt",
+              "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\rfc\\rfc1436.txt",
+              "RelativeToolTip": "..\\rfc\\rfc1436.txt",
+              "ViewState": "AQIAACYDAAAAAAAAAAAiwDADAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-27T20:26:11.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\README.md",
-              "RelativeDocumentMoniker": "..\\README.md",
-              "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\README.md",
-              "RelativeToolTip": "..\\README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-03-27T20:07:06.102Z",
+              "Title": "gopher.bnf",
+              "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\bnf\\gopher.bnf",
+              "RelativeDocumentMoniker": "..\\goff3rlib\\bnf\\gopher.bnf",
+              "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\bnf\\gopher.bnf",
+              "RelativeToolTip": "..\\goff3rlib\\bnf\\gopher.bnf",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-27T20:25:51.414Z",
               "EditorCaption": ""
             },
             {
@@ -50,32 +59,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GopLib.cs",
-              "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\GopLib.cs",
-              "RelativeDocumentMoniker": "..\\goff3rlib\\GopLib.cs",
-              "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\GopLib.cs",
-              "RelativeToolTip": "..\\goff3rlib\\GopLib.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:05:29.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3r\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3r\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T19:52:42.161Z",
-              "EditorCaption": ""
             }
           ]
         }

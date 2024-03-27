@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "El
 		..\AUTHORS.md = ..\AUTHORS.md
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
+		..\rfc\rfc1436.txt = ..\rfc\rfc1436.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "goff3rlib", "..\goff3rlib\goff3rlib.csproj", "{5CC8B549-BF7B-442D-921C-816D558CFB92}"

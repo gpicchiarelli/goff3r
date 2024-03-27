@@ -1,0 +1,35 @@
+﻿CR-LF     ::= ASCII Carriage Return Character followed by Line Feed
+              character.
+
+Tab       ::= ASCII Tab character.
+
+NUL       ::= ASCII NUL character.
+
+UNASCII   ::= ASCII - [Tab CR-LF NUL].
+
+Lastline  ::= '.'CR-LF.
+
+TextBlock ::= Block of ASCII text not containing Lastline pattern.
+
+Type      ::= UNASCII.
+
+RedType   ::= '+'.
+
+User_Name ::= {UNASCII}.
+
+Selector  ::= {UNASCII}.
+
+Host      ::= {{UNASCII - ['.']} '.'} {UNASCII - ['.']}.
+
+Note: This is a Fully Qualified Domain Name as defined in RFC 1034.
+      (e.g., gopher.micro.umn.edu)  Hosts that have a CR-LF
+      TAB or NUL in their name get what they deserve.
+
+Digit     ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' .
+
+DigitSeq  ::= digit {digit}.
+
+Port      ::= DigitSeq.
+
+DirEntity ::= Type User_Name Tab Selector Tab Host Tab Port CR-LF
+          {RedType User_Name Tab Selector Tab Host Tab Port CR-LF}
