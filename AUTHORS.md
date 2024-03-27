@@ -1,0 +1,3 @@
+# Authors
+
+- Giacomo Picchiarelli
