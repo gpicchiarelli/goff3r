@@ -1,5 +1,7 @@
 # goff3r - Gopher Client Library
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/release/gpicchiarelli/repository.svg)](https://github.com/gpicchiarelli/goff3r/releases)
+
 
 ## Overview
 goff3r is a lightweight and minimalistic library for building Gopher clients in .NET.
