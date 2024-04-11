@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace goff3rlib.Entities;
-
-using System;
 using System.Text.RegularExpressions;
+
+namespace goff3rlib.Entities;
 
 public class TextFileEntity
 {
