@@ -1,3 +1,4 @@
 # Authors
 
 - Giacomo Picchiarelli
+- ChatGPT
