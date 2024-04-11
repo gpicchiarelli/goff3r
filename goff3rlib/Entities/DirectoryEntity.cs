@@ -1,95 +1,47 @@
-﻿/*
- Directory Entity
-
-CR-LF     ::= ASCII Carriage Return Character followed by Line Feed
-              character.
-
-Tab       ::= ASCII Tab character.
-
-NUL       ::= ASCII NUL character.
-
-UNASCII   ::= ASCII - [Tab CR-LF NUL].
-
-Lastline  ::= '.'CR-LF.
-
-TextBlock ::= Block of ASCII text not containing Lastline pattern.
-
-Type      ::= UNASCII.
-
-RedType   ::= '+'.
-
-User_Name ::= {UNASCII}.
-
-Selector  ::= {UNASCII}.
-
-Host      ::= {{UNASCII - ['.']} '.'} {UNASCII - ['.']}.
-
-Note: This is a Fully Qualified Domain Name as defined in RFC 1034.
-      (e.g., gopher.micro.umn.edu)  Hosts that have a CR-LF
-      TAB or NUL in their name get what they deserve.
-
-Digit     ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' .
-
-DigitSeq  ::= digit {digit}.
-
-Port      ::= DigitSeq.
- */
-
+﻿using System;
 using System.Text.RegularExpressions;
+namespace goff3rlib.Entities;
 
-namespace goff3rlib.Entities
+public class DirEntity
 {
+    public string Type { get; set; }
+    public string UserName { get; set; }
+    public string Selector { get; set; }
+    public string Host { get; set; }
+    public int Port { get; set; }
 
-    public sealed class DirectoryEntity
+    public DirEntity(string type, string userName, string selector, string host, int port)
     {
-        private const string Gopher_CRLF = "\r\n";
-        private const string Gopher_TAB = "\t";
-        private const char Gopher_NUL = '\0';
-        private readonly Uri? GopherHost = null;
-        private readonly int port = 70;
-        private const char GopherTypeChar = GopherType.GopherDirectory;
-        private readonly string Selector = string.Empty; //255 chars
-        private readonly string User_Name = string.Empty; //69 chars
+        Type = type;
+        UserName = userName;
+        Selector = selector;
+        Host = host;
+        Port = port;
+    }
 
-        private DirectoryEntity(string selector, string user_Name, Uri Host, int port = 70)
-        {
-            Selector = selector[..254];
-            User_Name = user_Name[..69];
-            GopherHost = Host;
-            //Type User_Name Tab Selector Tab Host Tab Port CR-LF
-        }
-        /* A row must be passed, not the entire output */
-        private DirectoryEntity(string raw)
-        {
-            string pattern = @"^(\d)(.*?)\t(.*?)\t(.*?)\t(\d+)\r\n$";
-            // Usa Regex.Match per trovare corrispondenze nella riga di input
-            Match match = Regex.Match(raw, pattern);
-            if (match.Success)
-            {
-                // Estrai i componenti dalla corrispondenza
-                string type = match.Groups[1].Value;
-                if (type.ToCharArray().ElementAt(0) == GopherType.GopherDirectory)
-                {
-                    User_Name = match.Groups[2].Value;
-                    Selector = match.Groups[3].Value;
-                    GopherHost = new Uri(match.Groups[4].Value);
-                    port = int.Parse(match.Groups[5].Value);
-                }
-                else
-                {
-                    throw new Exception("Gopher - Not a Directory - Parsing error");
-                }
-            }
-            else
-            {
-                throw new Exception("Gopher - Directory - Parsing error");
-            }
+    public static DirEntity Parse(string input)
+    {
+        string pattern = @"(?<Type>[\w\+\-]+)\t(?<UserName>[^\t]+)\t(?<Selector>[^\t]+)\t(?<Host>[^\t]+)\t(?<Port>\d+)";
+        Match match = Regex.Match(input, pattern);
 
-            //Type User_Name Tab Selector Tab Host Tab Port CR-LF
-        }
-        private string ToString()
+        if (match.Success)
         {
-            return GopherTypeChar + User_Name + Gopher_TAB + Selector + Gopher_TAB + GopherHost + Gopher_TAB + port + Gopher_CRLF;
+            string type = match.Groups["Type"].Value;
+            string userName = match.Groups["UserName"].Value;
+            string selector = match.Groups["Selector"].Value;
+            string host = match.Groups["Host"].Value;
+            int port = int.Parse(match.Groups["Port"].Value);
+
+            return new DirEntity(type, userName, selector, host, port);
         }
+        else
+        {
+            throw new FormatException("Input string does not match the expected format.");
+        }
+    }
+
+    public override string ToString()
+    {
+        return $"{Type}\t{UserName}\t{Selector}\t{Host}\t{Port}";
     }
 }

@@ -1,33 +1,45 @@
-﻿/*
- Menu Entity
+﻿using System;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using goff3rlib.Entities;
 
-Menu      ::= {DirEntity} Lastline.
- */
-
-namespace goff3rlib.Entities
+public class MenuEntity
 {
-    public class MenuEntity
+    public List<DirEntity> Directories { get; private set; }
+
+    public MenuEntity()
     {
-        private readonly List<DirectoryEntity>? menuItems = null;
-        private const string Gopher_CRLF = "\r\n";
-        private const string Gopher_Lastline = "." + Gopher_CRLF;
+        Directories = new List<DirEntity>();
+    }
 
-        public MenuEntity(string raw)
+    public static MenuEntity Parse(string input)
+    {
+        MenuEntity menu = new MenuEntity();
+
+        string[] lines = input.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+        foreach (string line in lines)
         {
-            if (!raw.Contains(Gopher_Lastline))
+            if (line == ".")
             {
-                throw new Exception("Menu - wrong format - lastline Missing");
+                // Lastline encountered, stop parsing
+                break;
             }
-            else
-            {
-                try
-                {
 
-                }
-                catch (Exception) { throw; }
-            }
+            DirEntity dirEntity = DirEntity.Parse(line);
+            menu.Directories.Add(dirEntity);
         }
 
-        public string ToString() { return string.Empty; }
+        return menu;
+    }
+
+    public override string ToString()
+    {
+        string result = "";
+        foreach (DirEntity dirEntity in Directories)
+        {
+            result += dirEntity.ToString() + Environment.NewLine;
+        }
+        result += ".";
+        return result;
     }
 }
