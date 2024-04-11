@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using goff3rlib.Entities;
 
+namespace goff3rlib.Entities;
+
 public class MenuEntity
 {
     public List<DirEntity> Directories { get; private set; }
