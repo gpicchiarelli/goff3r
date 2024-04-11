@@ -3,25 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3r\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\entities\\textfileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\goplib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AEF03E3-250F-4205-A9B0-03E3A50D5605}|Elementi di soluzione{5AEF03E3-250F-4205-A9B0-03E3A50D5605}|C:\\Users\\Giacomo\\source\\repos\\goff3r\\rfc\\rfc1436.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\transactions\\menutransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\entities\\textfileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\entities\\menuentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\entities\\directoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\bnf\\gopher.bnf||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\entities\\gophertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\transactions\\menutransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\entities\\directoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AEF03E3-250F-4205-A9B0-03E3A50D5605}|Elementi di soluzione{5AEF03E3-250F-4205-A9B0-03E3A50D5605}|C:\\Users\\Giacomo\\source\\repos\\goff3r\\rfc\\rfc1436.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC8B549-BF7B-442D-921C-816D558CFB92}|..\\goff3rlib\\goff3rlib.csproj|c:\\users\\giacomo\\source\\repos\\goff3r\\goff3rlib\\bnf\\gopher.bnf||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,31 +55,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GopLib.cs",
+              "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\GopLib.cs",
+              "RelativeDocumentMoniker": "..\\goff3rlib\\GopLib.cs",
+              "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\GopLib.cs",
+              "RelativeToolTip": "..\\goff3rlib\\GopLib.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:22:02.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TextFileEntity.cs",
               "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\Entities\\TextFileEntity.cs",
               "RelativeDocumentMoniker": "..\\goff3rlib\\Entities\\TextFileEntity.cs",
               "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\Entities\\TextFileEntity.cs",
               "RelativeToolTip": "..\\goff3rlib\\Entities\\TextFileEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAABcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T23:17:24.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "GopherType.cs",
               "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\Entities\\GopherType.cs",
               "RelativeDocumentMoniker": "..\\goff3rlib\\Entities\\GopherType.cs",
               "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\Entities\\GopherType.cs",
               "RelativeToolTip": "..\\goff3rlib\\Entities\\GopherType.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T23:17:19.221Z"
+              "WhenOpened": "2024-03-27T23:17:19.221Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MenuTransaction.cs",
               "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\Transactions\\MenuTransaction.cs",
               "RelativeDocumentMoniker": "..\\goff3rlib\\Transactions\\MenuTransaction.cs",
@@ -84,11 +101,12 @@
               "RelativeToolTip": "..\\goff3rlib\\Transactions\\MenuTransaction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T23:16:57.345Z"
+              "WhenOpened": "2024-03-27T23:16:57.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuEntity.cs",
               "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\Entities\\MenuEntity.cs",
               "RelativeDocumentMoniker": "..\\goff3rlib\\Entities\\MenuEntity.cs",
@@ -101,33 +119,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DirectoryEntity.cs",
               "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\Entities\\DirectoryEntity.cs",
               "RelativeDocumentMoniker": "..\\goff3rlib\\Entities\\DirectoryEntity.cs",
               "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\Entities\\DirectoryEntity.cs",
               "RelativeToolTip": "..\\goff3rlib\\Entities\\DirectoryEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAABAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-27T21:54:21.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "rfc1436.txt",
               "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\rfc\\rfc1436.txt",
               "RelativeDocumentMoniker": "..\\rfc\\rfc1436.txt",
               "ToolTip": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\rfc\\rfc1436.txt",
               "RelativeToolTip": "..\\rfc\\rfc1436.txt",
-              "ViewState": "AQIAAL0CAAAAAAAAAAAAAMwCAABIAAAA",
+              "ViewState": "AQIAAKsCAAAAAAAAAAAAALwCAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-03-27T20:26:11.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "gopher.bnf",
               "DocumentMoniker": "C:\\Users\\Giacomo\\source\\repos\\goff3r\\goff3rlib\\bnf\\gopher.bnf",
               "RelativeDocumentMoniker": "..\\goff3rlib\\bnf\\gopher.bnf",
