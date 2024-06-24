@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\repos\\goff3r\\goff3r\\goff3r.csproj": {}
+    "e:\\source\\repos\\goff3r\\goff3r\\goff3r.csproj": {}
   },
   "projects": {
-    "E:\\source\\repos\\goff3r\\goff3r\\goff3r.csproj": {
+    "e:\\source\\repos\\goff3r\\goff3r\\goff3r.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\goff3r\\goff3r\\goff3r.csproj",
+        "projectUniqueName": "e:\\source\\repos\\goff3r\\goff3r\\goff3r.csproj",
         "projectName": "goff3r",
-        "projectPath": "E:\\source\\repos\\goff3r\\goff3r\\goff3r.csproj",
+        "projectPath": "e:\\source\\repos\\goff3r\\goff3r\\goff3r.csproj",
         "packagesPath": "C:\\Users\\gpicc\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\goff3r\\goff3r\\obj\\",
+        "outputPath": "e:\\source\\repos\\goff3r\\goff3r\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
